@@ -11,3 +11,6 @@ Medical image segmentation is a key task in the imaging workflow, influencing ma
 
 ## Model
 ![Figure](https://github.com/tbwa233/SAM-Mix/blob/main/images/arxivarch(1).png)
+
+## Results
+A brief summary of our results are shown below. Our model SAM-Mix is compared to various baselines. In the table, the best scores are bolded and the second-best scores are underlined.
