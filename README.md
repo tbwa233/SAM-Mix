@@ -19,3 +19,14 @@ A brief summary of our results are shown below. Our model SAM-Mix is compared to
 The code has been written in Python using the Pytorch framework. Training requries a GPU. We provide a Jupyter Notebook, which can be run in Google Colab, containing the algorithm in a usable version. The notebook includes annotations to follow along.
 
 ## Citation
+If you find this repo or the paper useful, please cite: 
+
+**arXiv preprint**
+```
+@article{ward2024annotation,
+  title={Annotation-Efficient Task Guidance for Medical Segment Anything},
+  author={Ward, Tyler and Imran, Abdullah-Al-Zubaer},
+  journal={arXiv preprint arXiv:2412.08575},
+  year={2024}
+}
+```
