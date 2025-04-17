@@ -17,11 +17,11 @@ A brief summary of our results are shown below. Our model SAM-Mix is compared to
 
 | Model         | Supervision | DS                | HD                  |
 |---------------|-------------|-------------------|----------------------|
-| U-Net         | Full        | 0.897 ± 0.010     | 13.496 ± 1.272       |
-| nnU-Net       |             | 0.863 ± 0.034     | 21.407 ± 1.391       |
+| U-Net         |             | 0.897 ± 0.010     | 13.496 ± 1.272       |
+| nnU-Net       |   **Full**  | 0.863 ± 0.034     | 21.407 ± 1.391       |
 | TransU-Net    |             | 0.889 ± 0.005     | _12.68 ± 2.109_      |
-| MultiMix      | Limited     | 0.627 ± 0.007     | 21.470 ± 1.901       |
-| SAM-PP-0*     |             | 0.441 ± 0.012     | 67.565 ± 1.477       |
+| MultiMix      |             | 0.627 ± 0.007     | 21.470 ± 1.901       |
+| SAM-PP-0*     |  **Limited**| 0.441 ± 0.012     | 67.565 ± 1.477       |
 | SAM-PP-5      |             | 0.754 ± 0.006     | 36.521 ± 0.528       |
 | SAM-PP-50     |             | 0.726 ± 0.005     | 30.993 ± 0.010       |
 | SAM-PP-100    |             | 0.763 ± 0.003     | 26.535 ± 0.069       |
@@ -30,7 +30,6 @@ A brief summary of our results are shown below. Our model SAM-Mix is compared to
 | SAM-Mix-100   |             | _0.941 ± 0.001_   | 14.671 ± 0.052       |
 
 \* _No segmentation training_
-
 
 ## Data
 In this project, we evaluate on two segmentation tasks, in-domain and cross-domain. For the in-domain task, we use the full [Liver Tumor Segmentation Benchmark (LiTS)](https://competitions.codalab.org/competitions/17094#learn_the_details-overview) for binary liver segmentation. For the cross-domain task, we use 20 CT scans from the [TotalSegmentator](https://zenodo.org/records/10047292) training dataset, again for binary liver segmentation. In our open-sourced SAM-Mix implementation, we assume your datasets are stored in [HDF5](https://www.hdfgroup.org/solutions/hdf5/) format. We have provided a script to convert from the raw Nifti files of LiTS and TotalSegmentator to HDF5 format, which also applies the pre-processing techniques we used to your dataset.
