@@ -14,9 +14,6 @@ Medical image segmentation is a key task in the imaging workflow, influencing ma
 
 ## Results
 A brief summary of our results are shown below. Our model SAM-Mix is compared to various baselines. In the table, the best scores are bolded and the second-best scores are underlined.
-### Quantitative Evaluation of SAM-Mix (In-Domain vs Cross-Domain)
-
-_The best and second best results are **bolded** and _underlined_, respectively._
 
 | Model         | DS (LiTS)         | HD (LiTS)         | DS (TotalSegmentator) | HD (TotalSegmentator) |
 |---------------|-------------------|-------------------|------------------------|------------------------|
