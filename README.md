@@ -15,6 +15,9 @@ Medical image segmentation is a key task in the imaging workflow, influencing ma
 ## Results
 A brief summary of our results are shown below. Our model SAM-Mix is compared to various baselines. In the table, the best scores are bolded and the second-best scores are underlined.
 
+## Data
+In this project, we evaluate on two segmentation tasks, in-domain and cross-domain. For the in-domain task, we use the [Liver Tumor Segmentation Benchmark (LiTS)](https://competitions.codalab.org/competitions/17094#learn_the_details-overview)
+
 ## Code
 The code has been written in Python using the Pytorch framework. Training requries a GPU. We provide a Jupyter Notebook, which can be run in Google Colab, containing the algorithm in a usable version. The notebook includes annotations to follow along.
 
